@@ -143,7 +143,6 @@
   text-align: center;
   padding-left: 120px;
   padding-right: 120px;
-  margin-bottom: 120px;
 }
 
 #notes h1 {
@@ -185,4 +184,45 @@
 #notes .card-container .card p {
   padding-left: 24px;
   padding-right: 24px;
+}
+
+#brain {
+  margin: 120px;
+  height: 600px;
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+#brain .brain-img {
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+}
+
+.brain-info .the-soln {
+  padding-bottom: 16px;
+  color: #30B868;
+}
+
+.brain-info h1 {
+  line-height: auto;
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+}
+
+.brain-info .ash-p {
+  padding-top: 16px;
+  padding-bottom: 24px;
+  color: #627382;
+}
+
+.brain-info .brain-points p {
+  padding-top: 16px;
+  display: flex;
+  gap: 6px;
+  color: #001931;
+  font-weight: 500;
 }
