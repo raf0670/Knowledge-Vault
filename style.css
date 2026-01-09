@@ -277,3 +277,50 @@ button {
   margin-bottom: 24px;
   margin-top: 16px;
 }
+
+footer {
+  background-color: #001931;
+  padding: 120px 120px 30px 120px;
+}
+
+#description {
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.des-img {
+  width: 350px;
+  height: 60px;
+}
+
+.des-img img {
+  width: 139px;
+}
+
+.socials h4 {
+  margin-bottom: 16px;
+}
+
+.socials {
+  width: 220px;
+}
+
+.socials .social-logos {
+  display: flex;
+  width: 92px;
+  height: 20px;
+  gap: 16px;
+}
+
+.socials .social-logos img {
+  border-radius: 1000px;
+}
+
+.ending {
+  color: #FAFAFA;
+  text-align: center;
+  padding-top: 30px;
+  border-top: 1px solid #FAFAFA;
+}
